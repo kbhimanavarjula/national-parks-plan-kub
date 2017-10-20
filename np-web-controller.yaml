@@ -24,13 +24,9 @@ spec:
         ports:
         - name: np-app
           containerPort: 8080
-          hostPort: 8080
         - name: habsup
           containerPort: 9631
-          hostPort: 9631
         - name: habsup1
           containerPort: 9638
         - name: mongodb
           containerPort: 27017
-          hostPort: 27017
-
